@@ -22,7 +22,7 @@ class Footer extends Component {
                                 <div className="footer-left">
                                     <div className="inner">
                                         <span>I'm Ready To Do This</span>
-                                        <h2>Let's get <br /> to work</h2>
+                                        <h2>Let's get to work</h2>
                                         <a className="rn-button-style--2" href="/#contact">
                                             <span>Contact Me</span>
                                         </a>
