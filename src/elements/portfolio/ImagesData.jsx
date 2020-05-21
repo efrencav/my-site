@@ -641,7 +641,7 @@ const PortfolioListContent = [
         callengeImgTwoAlt: [
             `lorem ipsum.`
         ],
-        challengeImgThree: portfolioFiftyone,
+        challengeImgThree: portfolioFiftyfour,
         challengeImgTwoThree: [
             `lorem ipsum.`
         ],
@@ -662,7 +662,7 @@ const PortfolioListContent = [
         solutionImgTwoAlt: [
             `lorem ipsum.`
         ],
-        solutionImgThree: portfolioFiftyfour,
+        solutionImgThree: portfolioFiftyone,
         solutionImgThreeAlt: [
             `lorem ipsum.`
         ],
@@ -778,75 +778,76 @@ const PortfolioListContent = [
         awardImg: noAward,
         view: 'View Project',
         programUrl: '',
-        projectType: 'Brochure Design',
-        brief: 'Designed specifically for those who want the best in their kitchen, integrating all the advantages of Silestone. A revolutionary new product, competing the cycle of perfection that your kitchen needs.',
+        projectType: 'Brochure Design, Art Direction',
+        brief: 'Brochure design for a leading Kitchen countertop company.',
         // Summary
         subtitle: [
-            `The objective for this project was to highlight the Silestone countertop product details, countertop specifications, showcase over 60-color palette variations, and edge profiles.`
+            `Silestone owes its success to its people: a diverse strong workforce distributed in the more than 20 countries and comprehensive distribution centers and service platforms across the globe.`
         ],
         description: [
-            `Targeted specifically for Interior Designers, Architects, and female homeowners.`
+            `All due to the belief that strong relationships will allow them to build a brighter future for kitchen countertop customers.`
         ],
         image: 'image-10',
         imageHeader: 'bg_image--14',
         // The Challenge
         challengeDesc: [
-            `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.`
+            `To design an elegant sales brochure that would help Silestone communicate behind the company's successes and leadership lies a global team united across borders towards a commong goal: Consistenly deliverying innovative kitchen products.`
         ],
         challengeDescMore: [
-            ` Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.`
+            ``
         ],
         // Challenge big picture
         challengeImgOne: portfolioSeventythree,
         challengeImgOneAlt: [
-            `lorem ipsum.`
+            `Brochure displaying two red cover designs for Silestone Kitchen and Bath brochure.`
         ],
         // Two small pictures
         challengeImgTwo: portfolioSeventyfour,
         callengeImgTwoAlt: [
-            `lorem ipsum.`
+            `Close up of inside brochure pages displaying a white sink.`
         ],
         challengeImgThree: portfolioSeventyfive,
         challengeImgTwoThree: [
-            `lorem ipsum.`
+            `Close up of inside brochure spread displaying white kitchen countertop.`
         ],
         // The Solution
         solutionDesc: [
-            `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.`
+            `The simplicity of the cover design—clean and elegant—creates immediate impact and generates curiosity. The color is restricted to the brand's red on a solid spread with a mixture of serif and sans serif fonts to identify the brands message.`
         ],
         solutionDescMore: [
-            ` Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.`
+            `Page after page inside the brochure is filled iwth stunning color tones and elegant photography that bring out the complxity behind the Silestone product performance. The style and tone is consistent with Silestone's website, which I was also involved with in the design.`
         ],
         // Big Picture
         solutionImgOne: portfolioSeventysix,
         solutionImgOneAlt: [
-            `lorem ipsum.`
+            `Inside brochure spread displaying bright red inner page and different icon use to describe its warranty coverage.`
         ],
         // Two small pictures
         solutionImgTwo: portfolioSeventyseven,
         solutionImgTwoAlt: [
-            `lorem ipsum.`
+            `Spread close up of multiple colored countertop swatch samples displaying icons to identify the different surfaces for each product.`
         ],
         solutionImgThree: portfolioSeventyeight,
         solutionImgThreeAlt: [
-            `lorem ipsum.`
+            `Close up of inside pages displaying elegant white kitchen countertop.`
         ],
         // The Restults
         resultsDesc: [
-            `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.`
+            `The sales brochure includes detailed product information and includes over 60 colors of different surface textures highlighted with unique icon designs.`,
+            `The sales brochure is full of personality—the perfect combination of enganging and memorable imagery and clearly laid out information.`
         ],
         resultsDescMore: [
-            ` Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.`
+            `The large font use and its simplicity of color use help make a strong and confident statement about the company's passion and commitment to deliver the best solutions for its customers, and really make a difference to the kitchens of customers all over the world.`
         ],
         // Results big picture
         resultsImg: portfolioSeventynine,
         resultsImgAlt: [
-            `lorem ipsum.`
+            `Close up of inside pages displaying a child playing with flour on top of a countertop.`
         ],
         // Related image
         relatedImg: relatedNine,
         relatedImgAlt: [
-            `lorem ipsum.`
+            `Brochure displaying two red cover designs for Silestone Kitchen and Bath brochure.`
         ],
         // URL
         url: '/portfolio/silestone-brochure'
@@ -860,64 +861,62 @@ const PortfolioListContent = [
         awardImg: noAward,
         view: 'View Project',
         programUrl: '',
-        projectType: 'Packaging',
-        brief: 'Brief description of the project.',
+        projectType: 'Label and Packaging',
+        brief: 'Label and packaging design for coffee brand.',
         // Summary
         subtitle: [
-            `There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.`
+            `Cafe Diario believes that coffee is an open invitation. That good coffee is for everyone and not just the coffee elite.`
         ],
         description: [
-            `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commod viverra maecenas accumsan lacus vel facilisis. ut labore et dolore magna aliqua.`
+            `They dig deep to roast and find the absolute best coffees.`,
+            ` The company had the pleasure of extending its existing products with new packaging designs for its coffee labels.`
         ],
         image: 'image-12',
         imageHeader: 'bg_image--12',
         // The Challenge
         challengeDesc: [
-            `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.`,
-            ` Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.`
-        ],
-        challengeDescTwo: [
-            ``
+            `The challenge was to come up with a package that would once again stand out from the crowd. Just like coffee, even its packaging design should also be enticing and attractive.`],
+        challengeDescMore: [
+            `The coffee packaging design should link by visual language based on typographic simplicity and overall creativity.`
         ],
         // Challenge big picture
         challengeImgOne: portfolioNinetySix,
         challengeImgOneAlt: [
-            `lorem ipsum.`
+            `Large image displaying Cafe Diario logo with a beige background, coffee beans over a rustic wood surface and a young lady enjoying a fresh cup of coffee.`
         ],
         // Two small pictures
         challengeImgTwo: portfolioNinetySeven,
         callengeImgTwoAlt: [
-            `lorem ipsum.`
+            `Box of instant coffee showing bright red color for caffeinated and green for decaffeinated.`
         ],
         challengeImgThree: portfolioNinetyEight,
         challengeImgTwoThree: [
-            `lorem ipsum.`
+            `Three cans of coffee bottles displaying the label design and coffee beans spilled outside the container.`
         ],
         // The Solution
         solutionDesc: [
-            `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.`
+            `In the design, the logo is front and center for greater brand recognition—and a coffee cup highlights the coffee packaging.`
         ],
-        solutionDescTwo: [
-            ``
+        solutionDescMore: [
+            `We developed an appealing coffee label and packaging for each of its blends. In the design, the logo is front and center for greater brand recognition—and a coffee cup that highlights the product. The label educates the customer about coffee as passionate coffee lovers are in trust for information.`
         ],
         // Big Picture
         solutionImgOne: portfolioNinetyNine,
         solutionImgOneAlt: [
-            `lorem ipsum.`
+            `Coffee grains inside a burlap sack with a cup of hot coffee, Colombian landscaping and three coffee containers.`
         ],
         // Two small pictures
         solutionImgTwo: portfolioOneHundred,
         solutionImgTwoAlt: [
-            `lorem ipsum.`
+            `Packaging and label design for instant coffee.`
         ],
         solutionImgThree: portfolioOneHundredOne,
         solutionImgThreeAlt: [
-            `lorem ipsum.`
+            `Canned container of coffee products with coffee beans spilled outside the cans.`
         ],
         // The Restults
         resultsDesc: [
-            `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.`,
-            ` Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.`
+            `The new designs redefined Cafe Diario as a serious contender in the grocery store's coffee aisles and allowed for consistent branding across multiple products. The packaging spoke for the quality of its contents and each of its products.`
         ],
 
         // The Restults
@@ -927,12 +926,12 @@ const PortfolioListContent = [
         // Results big picture
         resultsImg: portfolioOneHundredTwo,
         resultsImgAlt: [
-            `lorem ipsum.`
+            `Family of Cafe Diario coffee products.`
         ],
         // Related image
         relatedImg: relatedEleven,
         relatedImgAlt: [
-            `lorem ipsum.`
+            `Large image displaying Cafe Diario logo with a beige background, coffee beans over a rustic wood surface and a young lady enjoying a fresh cup of coffee.`
         ],
         // URL
         url: '/portfolio/cafe-diario'
