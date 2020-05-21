@@ -448,22 +448,20 @@ const PortfolioListContent = [
         awardImg: award,
         view: 'View Project',
         programUrl: 'AMA Crystal Award',
-        projectType: 'Packaging, Illustration',
+        projectType: 'Identity & Packaging design',
         brief: 'Brand strategy & identity & Packaging design',
         // Summary
         subtitle: [
-            `There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.`
+            `Muscle Rehab as a brand has expanded quite well and claims assurance in the quality of its products.`
         ],
         description: [
-            `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commod viverra maecenas accumsan lacus vel facilisis. ut labore et dolore magna aliqua. `
+            `We created a logo and packaging design that targets hard-working young adult athletes that have an active lifestyle. `
         ],
         image: 'image-5',
         imageHeader: 'bg_image--5',
         // The Challenge
         challengeDesc: [
-            `Find a new territory.`,
-            ``
-        ],
+            `Find a new territory.`],
         challengeDescMore: [
             `Muscle Rehab was preparing to launch with a line of premium bath bombs and bath salts for athletes. They faced an industry that focused on the female audience.`,
             ` They needed to chart a new course.`
@@ -511,7 +509,7 @@ const PortfolioListContent = [
             ` Muscle Rehab's market to young adult athletes, ages 18 to 35, where sore muscles are a part of an active lifestyle. To reach them, we needed to create more than a bath bomb brand. We needed to stand for something greater. So we designed a brand for the doers—something to live up to.`
         ],
         resultsDescMore: [
-            `The result is a lifestyle brand—one that values ambition and hard work, as well as time spent unwinding and connecting with friends.`
+            `The result is a lifestyle brand that values ambition and hard work, as well as time spent unwinding and connecting with friends.`
         ],
         // Results big picture
         resultsImg: portfolioThirtythree,
