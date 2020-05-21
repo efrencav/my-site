@@ -10,7 +10,7 @@ import portfolioFour from '../../images/portfolio/big/dp-big--portfolio-04.jpg';
 import portfolioFive from '../../images/portfolio/big/dp-big--portfolio-05.jpg';
 import portfolioSix from '../../images/portfolio/big/dp-big--portfolio-06.jpg';
 import portfolioSeven from '../../images/portfolio/big/dp-big--portfolio-07.jpg';
-import portfolioEight from '../../images/portfolio/big/dp-big--portfolio-08.jpg';
+// import portfolioEight from '../../images/portfolio/big/dp-big--portfolio-08.jpg';
 
 // Kinsmen Group
 import portfolioEleven from '../../images/portfolio/big/dp-big--portfolio-11.jpg';
@@ -24,7 +24,7 @@ import portfolioThirtysix from '../../images/portfolio/big/dp-big--portfolio-36.
 import portfolioThirtyseven from '../../images/portfolio/big/dp-big--portfolio-37.jpg';
 import portfolioThirtyeight from '../../images/portfolio/big/dp-big--portfolio-38.jpg';
 import portfolioThirtynine from '../../images/portfolio/big/dp-big--portfolio-39.jpg';
-import portfolioForty from '../../images/portfolio/big/dp-big--portfolio-40.jpg';
+// import portfolioForty from '../../images/portfolio/big/dp-big--portfolio-40.jpg';
 
 // Six Ways to Reduce Well Intervention Costs
 import portfolioFortyone from '../../images/portfolio/big/dp-big--portfolio-41.jpg';
@@ -34,7 +34,7 @@ import portfolioFortyfour from '../../images/portfolio/big/dp-big--portfolio-44.
 import portfolioFortyfive from '../../images/portfolio/big/dp-big--portfolio-45.jpg';
 import portfolioFortysix from '../../images/portfolio/big/dp-big--portfolio-46.jpg';
 import portfolioFortyseven from '../../images/portfolio/big/dp-big--portfolio-47.jpg';
-import portfolioFortyeight from '../../images/portfolio/big/dp-big--portfolio-48.jpg';
+// import portfolioFortyeight from '../../images/portfolio/big/dp-big--portfolio-48.jpg';
 
 // SLB Catalog
 import portfolioFortynine from '../../images/portfolio/big/dp-big--portfolio-49.jpg';
@@ -44,7 +44,7 @@ import portfolioFiftytwo from '../../images/portfolio/big/dp-big--portfolio-52.j
 import portfolioFiftythree from '../../images/portfolio/big/dp-big--portfolio-53.jpg';
 import portfolioFiftyfour from '../../images/portfolio/big/dp-big--portfolio-54.jpg';
 import portfolioFiftyfive from '../../images/portfolio/big/dp-big--portfolio-55.jpg';
-import portfolioFiftysix from '../../images/portfolio/big/dp-big--portfolio-56.jpg';
+// import portfolioFiftysix from '../../images/portfolio/big/dp-big--portfolio-56.jpg';
 
 // Silestone Website
 // import portfolioFiftyseven from '../../images/portfolio/big/dp-big--portfolio-57.jpg';
@@ -64,7 +64,7 @@ import portfolioSixtyeight from '../../images/portfolio/big/dp-big--portfolio-68
 import portfolioSixtynine from '../../images/portfolio/big/dp-big--portfolio-69.jpg';
 import portfolioSeventy from '../../images/portfolio/big/dp-big--portfolio-70.jpg';
 import portfolioSeventyone from '../../images/portfolio/big/dp-big--portfolio-71.jpg';
-import portfolioSeventytwo from '../../images/portfolio/big/dp-big--portfolio-72.jpg';
+// import portfolioSeventytwo from '../../images/portfolio/big/dp-big--portfolio-72.jpg';
 
 // Silestone Brochure
 import portfolioSeventythree from '../../images/portfolio/big/dp-big--portfolio-73.jpg';
@@ -74,7 +74,7 @@ import portfolioSeventysix from '../../images/portfolio/big/dp-big--portfolio-76
 import portfolioSeventyseven from '../../images/portfolio/big/dp-big--portfolio-77.jpg';
 import portfolioSeventyeight from '../../images/portfolio/big/dp-big--portfolio-78.jpg';
 import portfolioSeventynine from '../../images/portfolio/big/dp-big--portfolio-79.jpg';
-import portfolioEighty from '../../images/portfolio/big/dp-big--portfolio-80.jpg';
+// import portfolioEighty from '../../images/portfolio/big/dp-big--portfolio-80.jpg';
 
 import portfolioEightyFive from '../../images/portfolio/big/dp-big--portfolio-85.jpg';
 import portfolioEightySix from '../../images/portfolio/big/dp-big--portfolio-86.jpg';
@@ -118,7 +118,7 @@ import relatedEight from '../../images/portfolio/related/related-image-08.jpg';
 // 
 import relatedNine from '../../images/portfolio/related/related-image-09.jpg';
 // 
-import relatedTen from '../../images/portfolio/related/related-image-10.jpg';
+// import relatedTen from '../../images/portfolio/related/related-image-10.jpg';
 // 
 import relatedEleven from '../../images/portfolio/related/related-image-11.jpg';
 // SLB web standards
@@ -390,7 +390,7 @@ const PortfolioListContent = [
         programUrl: '',
         projectType: 'Branding, UI/UX Design',
         brief: [
-            `Abstract Creative is a creative, branding, and digital design agency based in Houston, focusing on helping clients connect with their target audience, promote their business, and sell their products and services in a consistent way across all communications.`
+            `Abstract Creative is a creative, branding, and digital design agency based in Houston`
         ],
         subtitle: [
             `The purpose of the design is to provide online reach through branded storytelling.`,
@@ -449,7 +449,7 @@ const PortfolioListContent = [
         view: 'View Project',
         programUrl: 'AMA Crystal Award',
         projectType: 'Packaging, Illustration',
-        brief: 'brief description of the project',
+        brief: 'Brand strategy & identity & Packaging design',
         // Summary
         subtitle: [
             `There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.`
@@ -461,12 +461,12 @@ const PortfolioListContent = [
         imageHeader: 'bg_image--5',
         // The Challenge
         challengeDesc: [
-            `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.`,
-            ` Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.`
+            `Find a new territory.`,
+            ``
         ],
         challengeDescMore: [
-            `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.`,
-            ` Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.`
+            `Muscle Rehab was preparing to launch with a line of premium bath bombs and bath salts for athletes. They faced an industry that focused on the female audience.`,
+            ` They needed to chart a new course.`
         ],
         // Challenge big picture
         challengeImgOne: portfolioThirtyfour,
@@ -484,12 +484,12 @@ const PortfolioListContent = [
         ],
         // The Solution
         solutionDesc: [
-            `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.`,
-            ` Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.`
+            `More to be discovered.`,
+            ``
         ],
         solutionDescMore: [
-            `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.`,
-            ` Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.`
+            `Confident, unexpected, enticing, the creative concept draws your attention by showing the product in its use.
+            We created a brand, from strategy and narrative to visual identity and packaging, that merges all audiences—ideal for a product that's both rigorous and tended by hand.`
         ],
         // Big Picture
         solutionImgOne: portfolioThirtyseven,
@@ -507,10 +507,11 @@ const PortfolioListContent = [
         ],
         // The Restults
         resultsDesc: [
-            `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.`
+            `Premium within reach.`,
+            ` Muscle Rehab's market to young adult athletes, ages 18 to 35, where sore muscles are a part of an active lifestyle. To reach them, we needed to create more than a bath bomb brand. We needed to stand for something greater. So we designed a brand for the doers—something to live up to.`
         ],
         resultsDescMore: [
-            `Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.`
+            `The result is a lifestyle brand—one that values ambition and hard work, as well as time spent unwinding and connecting with friends.`
         ],
         // Results big picture
         resultsImg: portfolioThirtythree,
@@ -699,74 +700,75 @@ const PortfolioListContent = [
         view: 'View Project',
         programUrl: '',
         projectType: 'Logo Design, Rebranding',
-        brief: 'brief description of the project.',
+        brief: 'Identity Evolution for a Leading Health and Beauty Brand.',
         // Summary
         subtitle: [
-            `There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.`
+            `Rebranding for a leading line of luxurious and soothing natural products in the health and beauty industry.`
         ],
         description: [
-            `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commod viverra maecenas accumsan lacus vel facilisis. ut labore et dolore magna aliqua. `
+            `Enfusia needed to update its identity and brand to drive competitive differentiation and increase market share. 
+            To achieve this, the company would revamp its existing logo and update its packaging for all products to a cleaner, consistent look and feel. `
         ],
         image: 'image-9',
         imageHeader: 'bg_image--9',
         // The Challenge
         challengeDesc: [
-            `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.`
+            `To acquire a successful rebranding, Enfusia needed to update their original logo design to a new cleaner look. This new brand design and architecture would completely replace the existing logo on all assets, including heavily regulated images such as products and packaging.`
         ],
         challengeDescMore: [
-            ` Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.`
+            ``
         ],
         // Challenge big picture
         challengeImgOne: portfolioSixtyfive,
         challengeImgOneAlt: [
-            `lorem ipsum.`
+            `Enfusia new logo on a purple background next to a lady sunbathing in a floatable device over water.`
         ],
         // Two small pictures
         challengeImgTwo: portfolioSixtysix,
         callengeImgTwoAlt: [
-            `lorem ipsum.`
+            `Image showing purple bath salts next to a purple background with a butterfly icon graphic.`
         ],
         challengeImgThree: portfolioSixtyseven,
         challengeImgTwoThree: [
-            `lorem ipsum.`
+            `Enfusia new logo on a purple background.`
         ],
         // The Solution
         solutionDesc: [
-            `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.`
+            `The rebranding approach was to review the current logo and update the design by modifying a script font while maintaining a similar look to the original identity and producing an elegant brand identity.`
         ],
         solutionDescMore: [
-            ` Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.`
+            `The script font was also used on all product names to keep a consistent look and feel throughout the brand identity and packaging design.`
         ],
         // Big Picture
         solutionImgOne: portfolioSixtyeight,
         solutionImgOneAlt: [
-            `lorem ipsum.`
+            `A wooden floor with a bowl of water covered with lulip flowers and a pair of feet soaking in the water.`
         ],
         // Two small pictures
         solutionImgTwo: portfolioSixtynine,
         solutionImgTwoAlt: [
-            `lorem ipsum.`
+            `Purple background showing a pair of booklets displaying the cover design for the brand identity guidelines for Enfusia.`
         ],
         solutionImgThree: portfolioSeventy,
         solutionImgThreeAlt: [
-            `lorem ipsum.`
+            `Light purple background showing an open booklet and displaying the inside contents of the branding guidelines for Enfusia.`
         ],
         // The Restults
         resultsDesc: [
-            `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.`
+            `The Enfusia rebranding was successful and well accepted by their existing clients. The new identity and packaging design provided an elegant look and feel and a refresh to the brand; it also helped generate new sales with existing customers.`
         ],
         resultsDescMore: [
-            ` Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.`
+            `Enfusia also hired me to help them create a  new brand identity and packaging design for Muscle Rehab.`
         ],
         // Results big picture
         resultsImg: portfolioSeventyone,
         resultsImgAlt: [
-            `lorem ipsum.`
+            `Large image of a light purple background and an open booklet showing the inside contents of the Enfusia branding guidelines.`
         ],
         // Related image
         relatedImg: relatedEight,
         relatedImgAlt: [
-            `lorem ipsum.`
+            `A light purple background and an open booklet showing the inside contents of the Enfusia branding guidelines.`
         ],
         // URL
         url: '/portfolio/enfusia'
