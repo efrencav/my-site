@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 
-class ContactTwo extends Component{
-    constructor(props){
+class ContactTwo extends Component {
+    constructor(props) {
         super(props);
         this.state = {
             rnName: '',
@@ -10,8 +10,8 @@ class ContactTwo extends Component{
             rnMessage: '',
         };
     }
-    render(){
-        return(
+    render() {
+        return (
             <div className="contact-form--1">
                 <div className="container">
                     <div className="row row--35 align-items-start">
@@ -28,7 +28,7 @@ class ContactTwo extends Component{
                                             name="name"
                                             id="item01"
                                             value={this.state.rnName}
-                                            onChange={(e)=>{this.setState({rnName: e.target.value});}}
+                                            onChange={(e) => { this.setState({ rnName: e.target.value }); }}
                                             placeholder="Your Name *"
                                         />
                                     </label>
@@ -39,7 +39,7 @@ class ContactTwo extends Component{
                                             name="email"
                                             id="item02"
                                             value={this.state.rnEmail}
-                                            onChange={(e)=>{this.setState({rnEmail: e.target.value});}}
+                                            onChange={(e) => { this.setState({ rnEmail: e.target.value }); }}
                                             placeholder="Your email *"
                                         />
                                     </label>
@@ -50,7 +50,7 @@ class ContactTwo extends Component{
                                             name="subject"
                                             id="item03"
                                             value={this.state.rnSubject}
-                                            onChange={(e)=>{this.setState({rnSubject: e.target.value});}}
+                                            onChange={(e) => { this.setState({ rnSubject: e.target.value }); }}
                                             placeholder="Write a Subject"
                                         />
                                     </label>
@@ -60,7 +60,7 @@ class ContactTwo extends Component{
                                             id="item04"
                                             name="message"
                                             value={this.state.rnMessage}
-                                            onChange={(e)=>{this.setState({rnMessage: e.target.value});}}
+                                            onChange={(e) => { this.setState({ rnMessage: e.target.value }); }}
                                             placeholder="Your Message"
                                         />
                                     </label>
@@ -70,7 +70,7 @@ class ContactTwo extends Component{
                         </div>
                         <div className="col-lg-6 order-1 order-lg-2">
                             <div className="thumbnail mb_md--30 mb_sm--30">
-                                <img src="/assets/images/about/about-6.jpg" alt="trydo"/>
+                                <img src="/assets/images/about/about-6.jpg" alt="Efren Cavazos" />
                             </div>
                         </div>
                     </div>

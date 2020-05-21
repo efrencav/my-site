@@ -634,16 +634,16 @@ const PortfolioListContent = [
         // Challenge big picture
         challengeImgOne: portfolioFortynine,
         challengeImgOneAlt: [
-            `lorem ipsum.`
+            `Side view of the book casing.`
         ],
         // Two small pictures
         challengeImgTwo: portfolioFifty,
         callengeImgTwoAlt: [
-            `lorem ipsum.`
+            `Book casing showing the three books.`
         ],
         challengeImgThree: portfolioFiftyfour,
         challengeImgTwoThree: [
-            `lorem ipsum.`
+            `Three books, one standing and the other two laying flat showing a different design perspective of the design layout.`
         ],
         // The Solution
         solutionDesc: [
@@ -655,16 +655,16 @@ const PortfolioListContent = [
         // Big Picture
         solutionImgOne: portfolioFiftytwo,
         solutionImgOneAlt: [
-            `lorem ipsum.`
+            `Two book renderings showing design layout of the design.`
         ],
         // Two small pictures
         solutionImgTwo: portfolioFiftythree,
         solutionImgTwoAlt: [
-            `lorem ipsum.`
+            `Book cover of version 2 showing front cover design.`
         ],
         solutionImgThree: portfolioFiftyone,
         solutionImgThreeAlt: [
-            `lorem ipsum.`
+            `Book cover of version 1 showing front cover design.`
         ],
         // The Restults
         resultsDesc: [
@@ -676,12 +676,12 @@ const PortfolioListContent = [
         // Results big picture
         resultsImg: portfolioFiftyfive,
         resultsImgAlt: [
-            `lorem ipsum.`
+            `Birds eye view of book insert and three books next to each other.`
         ],
         // Related image
         relatedImg: relatedSeven,
         relatedImgAlt: [
-            `lorem ipsum.`
+            `Side view of the book casing.`
         ],
         // URL
         url: '/portfolio/intervention-catalog'
@@ -815,7 +815,7 @@ const PortfolioListContent = [
             `The simplicity of the cover design—clean and elegant—creates immediate impact and generates curiosity. The color is restricted to the brand's red on a solid spread with a mixture of serif and sans serif fonts to identify the brands message.`
         ],
         solutionDescMore: [
-            `Page after page inside the brochure is filled iwth stunning color tones and elegant photography that bring out the complxity behind the Silestone product performance. The style and tone is consistent with Silestone's website, which I was also involved with in the design.`
+            `Page after page inside, the brochure design is filled with stunning color tones and elegant photography that bring out the complexity behind the Silestone product performance. The style and tone are consistent with Silestone's website, which I was also involved with in the design.`
         ],
         // Big Picture
         solutionImgOne: portfolioSeventysix,

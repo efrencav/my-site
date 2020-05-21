@@ -80,7 +80,7 @@ class Header extends Component {
                             </ul>
                         </div>
                         <div className="header-btn">
-                            <a className="rn-btn" href="https://themeforest.net/checkout/from_item/25457315?license=regular" target="_blank" rel="noopener noreferrer">
+                            <a className="rn-btn" href="#" target="_blank" rel="noopener noreferrer">
                                 <span>Download Resume</span>
                             </a>
                         </div>
