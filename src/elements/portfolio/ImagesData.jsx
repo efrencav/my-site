@@ -331,14 +331,12 @@ const PortfolioListContent = [
         programUrl: 'https://www.silestoneusa.com/',
         projectType: 'Branding, UI/UX Design',
         brief: [
-            `Silestone is a Natural Quartz countertop surface that is sold at major home improvement stores, kitchen design showrooms, and other retail stores across the globe.`
+            `Branding and UI/UX design for a leading countertop surface product.`
         ],
         subtitle: [
-            `The purpose of the redesign is to improve brand equity and online reach through branded storytelling.`,
-            ` Improve site conversation of users into contact and ultimately customers, implement a search friendly and socially-focused product to drive user engagement and value.`
-        ],
+            `The purpose of the redesign is to improve brand equity and online reach through branded storytelling.`],
         description: [
-            `Integrated SAP system to keep track of product inventory in real-time and improve lateral navigation strategies, resource document and videos, and product information while implementing a fully responsive solution backed by WordPress CMS.`
+            ` Improve site conversion of users into contact and ultimately customers, implement a search friendly and socially-focused product to drive user engagement and value.`
         ],
         image: 'image-2',
         imageHeader: 'bg_image--2',
@@ -534,22 +532,22 @@ const PortfolioListContent = [
         view: 'View Project',
         programUrl: 'BMA Lantern Award',
         projectType: 'Brochure, Illustration',
-        brief: 'Efficient and effective technologies to lower oprational costs',
+        brief: 'Brochure design to communicate efficient and effective technologies to lower oprational costs',
         // Summary
         subtitle: [
-            `There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.`
+            `A 16-page award-winning brochure design that details six ways to reduce operation costs in the Well Intervention segment.`
         ],
         description: [
-            `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commod viverra maecenas accumsan lacus vel facilisis. ut labore et dolore magna aliqua. `
+            `Simplistic yet elegant design filled with infographics, supportive case studies, and custom illustrations for each highlighted service that helps reduce operation costs.`
         ],
         image: 'image-6',
         imageHeader: 'bg_image--6',
         // The Challenge
         challengeDesc: [
-            `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.`
+            `The Schlumberger Well Intervention segment needed to reach out to its Oil & Gas engineering audience to communicate how to reduce operating costs during an economic downturn in the Oil & Gas industry.`
         ],
         challengeDescMore: [
-            `Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.`
+            ``
         ],
         // Challenge big picture
         challengeImgOne: portfolioFortyone,
@@ -567,10 +565,10 @@ const PortfolioListContent = [
         ],
         // The Solution
         solutionDesc: [
-            `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.`
+            `Create a print booklet to highlight the six different ways to reduce operating costs. Each solution included a case study that supported the content of tools and services used in projects while highlighting critical points in colorful infographics and custom tool illustrations.`
         ],
         solutionDescMore: [
-            ` Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.`
+            ``
         ],
         // Big Picture
         solutionImgOne: portfolioFortyfour,
@@ -588,10 +586,10 @@ const PortfolioListContent = [
         ],
         // The Restults
         resultsDesc: [
-            `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.`
+            `It distributed over 85,000 copies as an insert in a leading Oil & Gas publication. Its distribution reached a massive engineer audience that generated more than a quarter-million-dollar in service sales.`
         ],
         resultsDescMore: [
-            ` Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.`
+            ``
         ],
         // Results big picture
         resultsImg: portfolioFortyseven,
@@ -616,22 +614,22 @@ const PortfolioListContent = [
         view: 'View Project',
         programUrl: 'BMA Lantern Award, GEA Awards',
         projectType: 'Products Catalog',
-        brief: 'brief description of the project.',
+        brief: 'Three book edition and book insert catalog design',
         // Summary
         subtitle: [
-            `There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.`
+            `Taking a fresh approach turned this product catalogue design into a successful sales tool, both in print and digital format.`
         ],
         description: [
-            `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commod viverra maecenas accumsan lacus vel facilisis. ut labore et dolore magna aliqua. `
+            `We produced a comprehensive design for displaying products, services, and book excerpt content for the Schlumberger Well Intervention segment.`
         ],
         image: 'image-7',
         imageHeader: 'bg_image--7',
         // The Challenge
         challengeDesc: [
-            `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.`
+            `Schlumberger had a new segment that needed to inform its audience of its tools, products, and services.`
         ],
         challengeDescMore: [
-            ` Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.`
+            ` The goal was to create new content and visual references for data information of its products, original content for case studies, and tech reports for existing services. `
         ],
         // Challenge big picture
         challengeImgOne: portfolioFortynine,
@@ -649,10 +647,10 @@ const PortfolioListContent = [
         ],
         // The Solution
         solutionDesc: [
-            `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.`
+            `Art directed the design of a 3-book edition catalog and a book insert to hold the books that carried over 750 pages of new content, detailing all data of its products, case study, and tech reports information.`
         ],
         solutionDescMore: [
-            ` Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.`
+            ` A mix of photoshoots, custom tool illustrations, and renderings was required to highlight each tool element, resulting in a well-documented catalog design.`
         ],
         // Big Picture
         solutionImgOne: portfolioFiftytwo,
@@ -670,10 +668,10 @@ const PortfolioListContent = [
         ],
         // The Restults
         resultsDesc: [
-            `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.`
+            `The Well Intervention Catalog was well received. We shipped 1,500 copies to different customers across the globe.`
         ],
         resultsDescMore: [
-            ` Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.`
+            ` The catalog design received five awards for the following: BMA Lantern Award, Best of Category - Digital - GEA, Best of Category - Offset - GEA, Division 1 - Best of Division - GEA, and Digital Division - Gold Award - GEA.`
         ],
         // Results big picture
         resultsImg: portfolioFiftyfive,
