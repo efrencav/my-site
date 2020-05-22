@@ -22,7 +22,7 @@ class ContactThree extends Component {
                                     <a href="mailto:efren.cavazos@gmail.com"> efren.cavazos@gmail.com</a> </p>
                             </div>
                             <div className="form-wrapper">
-                                <form action="POST" data-netlify="true">
+                                <form name="contact" action="POST" data-netlify="true">
                                     <label htmlFor="item01">
                                         <input
                                             type="text"
