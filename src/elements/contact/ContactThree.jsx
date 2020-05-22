@@ -21,18 +21,20 @@ class ContactThree extends Component {
     /* Here’s the juicy bit for posting the form submission */
 
     handleSubmit = e => {
-        fetch("/", {
-            method: "POST",
-            headers: { "Content-Type": "application/x-www-form-urlencoded" },
-            body: encode({ "form-name": "contact", ...this.state })
-        })
-            .then(() => alert("Success!"))
-            .catch(error => alert(error));
+
+        // fetch("/", {
+        //     method: "POST",
+        //     headers: { "Content-Type": "application/x-www-form-urlencoded" },
+        //     body: encode({ "form-name": "contact", ...this.state })
+
+        // .then(() => alert("Success!"))
+        // .catch(error => alert(error));
 
         e.preventDefault();
     };
 
     handleChange = e => this.setState({ [e.target.name]: e.target.value });
+
 
     render() {
         const { rnName, rnEmail, rnSubject, rnMessage } = this.state;
@@ -52,7 +54,7 @@ class ContactThree extends Component {
                                     <label htmlFor="item01">
                                         <input
                                             type="text"
-                                            name="name"
+                                            name="rnName"
                                             id="item01"
                                             value={rnName}
                                             onChange={this.handleChange}
@@ -63,7 +65,7 @@ class ContactThree extends Component {
                                     <label htmlFor="item02">
                                         <input
                                             type="email"
-                                            name="email"
+                                            name="rnEmail"
                                             id="item02"
                                             value={rnEmail}
                                             onChange={this.handleChange}
@@ -74,7 +76,7 @@ class ContactThree extends Component {
                                     <label htmlFor="item03">
                                         <input
                                             type="text"
-                                            name="subject"
+                                            name="rnSubject"
                                             id="item03"
                                             value={rnSubject}
                                             onChange={this.handleChange}
@@ -85,7 +87,7 @@ class ContactThree extends Component {
                                         <textarea
                                             type="text"
                                             id="item04"
-                                            name="message"
+                                            name="rnMessage"
                                             value={rnMessage}
                                             onChange={this.handleChange}
                                             placeholder="Your Message"
