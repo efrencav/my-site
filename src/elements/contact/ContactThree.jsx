@@ -1,12 +1,5 @@
 import React, { Component } from "react";
 
-const encode = (data) => {
-    return Object.keys(data)
-        .map(key => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
-        .join("&");
-}
-
-
 class ContactThree extends Component {
     constructor(props) {
         super(props);
@@ -17,28 +10,7 @@ class ContactThree extends Component {
             rnMessage: '',
         };
     }
-
-    /* Here’s the juicy bit for posting the form submission */
-
-    handleSubmit = e => {
-
-        // fetch("/", {
-        //     method: "POST",
-        //     headers: { "Content-Type": "application/x-www-form-urlencoded" },
-        //     body: encode({ "form-name": "contact", ...this.state })
-
-        // .then(() => alert("Success!"))
-        // .catch(error => alert(error));
-
-        e.preventDefault();
-    };
-
-    handleChange = e => this.setState({ [e.target.name]: e.target.value });
-
-
     render() {
-        const { rnName, rnEmail, rnSubject, rnMessage } = this.state;
-
         return (
             <div className="contact-form--1">
                 <div className="container">
@@ -50,25 +22,25 @@ class ContactThree extends Component {
                                     <a href="mailto:efren.cavazos@gmail.com"> efren.cavazos@gmail.com</a> </p>
                             </div>
                             <div className="form-wrapper">
-                                <form onSubmit={this.handleSubmit}>
+                                <form action="POST" data-netlify="true">
                                     <label htmlFor="item01">
                                         <input
                                             type="text"
-                                            name="rnName"
+                                            name="name"
                                             id="item01"
-                                            value={rnName}
-                                            onChange={this.handleChange}
+                                            value={this.state.rnName}
+                                            onChange={(e) => { this.setState({ rnName: e.target.value }); }}
                                             placeholder="Your Name *"
                                         />
                                     </label>
 
                                     <label htmlFor="item02">
                                         <input
-                                            type="email"
-                                            name="rnEmail"
+                                            type="text"
+                                            name="email"
                                             id="item02"
-                                            value={rnEmail}
-                                            onChange={this.handleChange}
+                                            value={this.state.rnEmail}
+                                            onChange={(e) => { this.setState({ rnEmail: e.target.value }); }}
                                             placeholder="Your email *"
                                         />
                                     </label>
@@ -76,10 +48,10 @@ class ContactThree extends Component {
                                     <label htmlFor="item03">
                                         <input
                                             type="text"
-                                            name="rnSubject"
+                                            name="subject"
                                             id="item03"
-                                            value={rnSubject}
-                                            onChange={this.handleChange}
+                                            value={this.state.rnSubject}
+                                            onChange={(e) => { this.setState({ rnSubject: e.target.value }); }}
                                             placeholder="Write a Subject"
                                         />
                                     </label>
@@ -87,9 +59,9 @@ class ContactThree extends Component {
                                         <textarea
                                             type="text"
                                             id="item04"
-                                            name="rnMessage"
-                                            value={rnMessage}
-                                            onChange={this.handleChange}
+                                            name="message"
+                                            value={this.state.rnMessage}
+                                            onChange={(e) => { this.setState({ rnMessage: e.target.value }); }}
                                             placeholder="Your Message"
                                         />
                                     </label>
