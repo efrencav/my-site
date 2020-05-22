@@ -22,7 +22,7 @@ const SlideList = [
 const Home = () => {
     // const linebreak = { "\n"};
     let title = 'About Me',
-        description = "Creative communication is at the heart of what I do; I can help you create a strategy, ideas, and design that connects with consumers and inspires them into action.",
+        description = "Creative communication is at the heart of what I do; I can help you create a strategy, ideas, and designs that connect with your consumers and inspires them into action.",
         descriptionTwo = "Strength in leading a creative team through a variety of projects across all platforms in digital, UI/UX Responsive design, and print. I am skilled in hiring, training, supervising, and mentoring talent.",
         descriptionThree = "",
         descriptionFour = ""
