@@ -22,10 +22,10 @@ const SlideList = [
 const Home = () => {
     // const linebreak = { "\n"};
     let title = 'About Me',
-        description = "I'm Efren Cavazos, an award-winning end-to-end creative with 20 years' experience in bringing insight, ideas, and execution expertise to concepts, stories, and brands. ",
-        descriptionTwo = "From conceptualization, designing and prototyping digital products to curating, brand experiences. From art directing photoshoots to social media content, I am all about approaching problems from the user and consumer point of view and crafting solutions that combine brand value, experience design, and technology.",
-        descriptionThree = "Strength in leading a creative team through a variety of projects across all platforms in digital, UI/UX Responsive design, and print. Skilled in hiring, training, supervising, and mentoring talent.",
-        descriptionFour = "Creative communication is at the heart of what I do; I create strategy, ideas and design that connects with consumers and inspires them into action."
+        description = "Creative communication is at the heart of what I do; I can help you create a strategy, ideas, and design that connects with consumers and inspires them into action.",
+        descriptionTwo = "Strength in leading a creative team through a variety of projects across all platforms in digital, UI/UX Responsive design, and print. I am skilled in hiring, training, supervising, and mentoring talent.",
+        descriptionThree = "",
+        descriptionFour = ""
     return (
         <div className="active-dark">
             <Helmet pageTitle="Efren Cavazos Portfolio" />

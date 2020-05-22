@@ -158,16 +158,16 @@ const PortfolioListContent = [
         // Challenge big picture
         challengeImgOne: portfolioOne,
         challengeImgOneAlt: [
-            `Front book cover of identity guidelines and graphic standards with engineer using protective PPE equipment looking at an iPad hand held device.`
+            `Front book cover of identity guidelines and graphic standards with an engineer using protective PPE equipment looking at an iPad handheld device.`
         ],
         // Two small pictures
         challengeImgTwo: portfolioTwo,
         callengeImgTwoAlt: [
-            `Interior pages showing table of contents for the brand guidelines book.`
+            `Interior pages showing a table of contents for the brand guidelines book.`
         ],
         challengeImgThree: portfolioThree,
         challengeImgTwoThree: [
-            `Interior page showing internal components of the book.`
+            `Interior pages showing internal components of the book.`
         ],
         // The Solution
         solutionDesc: [
@@ -184,11 +184,11 @@ const PortfolioListContent = [
         // Two small pictures
         solutionImgTwo: portfolioFive,
         solutionImgTwoAlt: [
-            `Spread of pages showing illustrations, animations and video usage guidelines.`
+            `Spread of pages showing illustrations, animations, and video usage guidelines.`
         ],
         solutionImgThree: portfolioSix,
         solutionImgThreeAlt: [
-            `Spread of pages showing drawing specifcations and callouts for table graphs and specification drawings.`
+            `Spread of pages showing drawing specifications and callouts for table graphs and specification drawings.`
         ],
         // The Restults
         resultsDesc: [
@@ -242,7 +242,7 @@ const PortfolioListContent = [
         ],
         phaseTwoImg: portfolioNinetyFour,
         phaseTwoAlt: [
-            `Desktop, laptop and mobile phone on a desk showing the front page layout of the website design.`
+            `Desktop, laptop, and mobile phone on a desk show the website design's front page layout.`
         ],
         phaseTwoDesc: [
             `The new branding website design includes the same color palette as the new Schlumberger website design. The online branding guidelines site design is to be informative and resourceful for internal and external customers.`,
@@ -257,7 +257,7 @@ const PortfolioListContent = [
             ``
         ],
         phaseThreeFinal: portfolioNinetyFive,
-        phaseThreeFinalAlt: 'iPhone, laptop and iPad showcasing the different breakpoints of the UI/UX design.',
+        phaseThreeFinalAlt: 'iPhone, laptop, and iPad are showcasing the different breakpoints of the UI/UX design.',
         relatedImg: relatedTwelve,
         relatedImgAlt: '',
         url: '/portfolio/branding-guidelines-web'
@@ -272,7 +272,7 @@ const PortfolioListContent = [
         programUrl: 'http://kinsmengroup-testing.com/',
         projectType: 'Website, Logo Design, UI/UX Design',
         brief: [
-            `Kinsmen Group has earned a reputation for delivering document control services for Oil & Gas, Pharmaceuticals & Biotech, Power Generation & Utilities clients.`,
+            `Kinsmen Group has earned a reputation for delivering document control services for Oil & Gas, Pharmaceuticals & Biotech, Power Generation & utility clients.`,
             `Their innovative approach is creating a connected and sustainable future for customers around the globe.`
         ],
         subtitle: [
@@ -285,18 +285,18 @@ const PortfolioListContent = [
         imageHeader: 'bg_image--2',
         phaseOneImg: portfolioEightyOne,
         phaseOneAlt: [
-            `Multiple page mockup showing the pages in a slanted way.`
+            `Mockup of multiple pages.`
         ],
         phaseOneDesc: [
             `Due to the rapid company services growth, the company had to strategically repurpose and rebrand their website and extend the capacity to fit their services.`,
-            `Their old site was quite flat and technical - although it had lots of copy, it didn't tell their story.  The goal for this web design project was to revamp the site''s look and feel to reflect the all-new branding but also to deepen its content.`,
+            `Their old site was quite flat and technical - although it had lots of copy, it didn't tell their story.  The goal for this web design project was to revamp the site'  's look and feel to reflect the all-new branding and deepen its content.`,
         ],
         phaseOneDescMore: [
             `The Kinsmen team recognized the opportunity to drive recruitment through improved storytelling, so we focused on adding new pages, restructured their services pages and content blocks to supply a more reliable company overview.`
         ],
         phaseTwoImg: portfolioEightyFive,
         phaseTwoAlt: [
-            `Desktop, laptop and mobile phone on a desk showing the front page layout of the website design.`
+            `Desktop, laptop, and mobile phone on a desk are showing the front page layout of the website design.`
         ],
         phaseTwoDesc: [
             `The new Kinsmen Group branding uses the same color palette but gives much more weight to both imagery and white space.`,
@@ -306,14 +306,14 @@ const PortfolioListContent = [
         ],
         phaseThreeImg: portfolioEleven,
         phaseThreeAlt: [
-            `Isometric perspective of laptop and extra monitor showing landing page of the website.`
+            `The isometric perspective of the laptop and an extra monitor is showing the landing page of the website.`
         ],
         phaseThreeDesc: [
             `The new Kinsmen Group website is clean, polished, and more reflective of their innovative approach.`,
             `The About and Services sections - and the entire site - feature significantly improved content around company culture and the benefits of working with Kinsmen.`,
         ],
         phaseThreeDescMore: [
-            `With enhanced service pages, the website is now a more powerful asset for showcasing their expertise and capabilities. The website is in it''s last phase of testing and will be launching soon.`
+            `With enhanced service pages, the website is now a more powerful asset for showcasing their expertise and capabilities. The site is in it ''s the last phase of testing and will be launching soon.`
         ],
         phaseThreeFinal: portfolioEightySix,
         phaseThreeFinalAlt: '',
@@ -336,44 +336,44 @@ const PortfolioListContent = [
         subtitle: [
             `The purpose of the redesign is to improve brand equity and online reach through branded storytelling.`],
         description: [
-            ` Improve site conversion of users into contact and ultimately customers, implement a search friendly and socially-focused product to drive user engagement and value.`
+            ` Improve site conversion of users into contact and, ultimately, customers, implement a search friendly and socially-focused product to drive user engagement and value.`
         ],
         image: 'image-2',
         imageHeader: 'bg_image--2',
         phaseOneImg: portfolioEightySeven,
         phaseOneAlt: [
-            `Multiple page mockup showing the pages in a slanted way.`
+            `Mockup showing multiple pages.`
         ],
         phaseOneDesc: [
-            `Silestone has a clear and recognizable branding, so we worked with the existing color palette to create something more sleek and professional. The redesign included fresh photography, improved copy, icon usage, product displays and more breathing room to make paths to content clearer.`,
+            `Silestone has a clear and recognizable branding, so we worked with the existing color palette to create something more sleek and professional. The redesign included fresh photography, improved copy, icon usage, product displays, and breathing room to make paths to content clearer.`,
         ],
         phaseOneDescMore: [
-            ` The goal for this web design project was to revamp the site''s look and feel to reflect the all-new branding but also to deepen its content.`
+            ` The goal for this web design project was to revamp the site'  's look and feel to reflect the all-new branding and deepen its content.`
         ],
         phaseTwoImg: portfolioEightyEight,
         phaseTwoAlt: [
-            `Desktop, laptop and mobile phone on a desk showing the front page layout of the website design.`
+            `Desktop, laptop, and mobile phone on a desk are showing the front page layout of the website design.`
         ],
         phaseTwoDesc: [
             `A big part of the Silestone website redesign project was updating the overall look and feel to reflect their current branding.`,
-            ` To achieve an elegant look, we played with white space, and used blacks and light greys for highlighting sections. The magenta (Pantone 1935) is used as a highlight for minimal items.`,
+            ` To achieve an elegant look, we played with white space and used blacks and light greys for highlighting sections. The magenta (Pantone 1935) used as a highlight for minimal items.`,
         ],
         phaseTwoDescMore: [
-            ` The redesign also features more modern typography that feels more professional, each page uses engaging images and modern typography to convey their welcoming message.`
+            ` The redesign also features more modern typography that feels more professional; each page uses engaging images and modern typography to convey their welcoming message.`
         ],
         phaseThreeImg: portfolioEleven,
         phaseThreeAlt: [
-            `Isometric perspective of laptop and extra monitor showing landing page of the website.`
+            `The isometric perspective of the laptop and an extra monitor is showing the landing page of the website.`
         ],
         phaseThreeDesc: [
-            `The new Silestone website is an inviting and intuitive user eperience.`,
-            ` Integrated filtering displays and customized content for Africa, America, Asia, Europe and Middle East visitors, and the robust new locations page helps customers quickly find the nearest showrooms with the services and amenities they desire.`,
+            `The new Silestone website is engaging and intuitive user experience.`,
+            ` Integrated filtering displays and customized content for Africa, America, Asia, Europe, and Middle East visitors. The robust new locations page helps customers quickly find the nearest showrooms with the services and amenities they desire.`,
         ],
         phaseThreeDescMore: [
-            ` The new menu page is easily update to reflect their product offerings and information. The website is positioned to maximize the benefits of all future digital marketing activities done by the Cosentino Group .`
+            ` The website is positioned to maximize the benefits of all future digital marketing activities done by the Cosentino Group .`
         ],
         phaseThreeFinal: portfolioEightyNine,
-        phaseThreeFinalAlt: 'Cindy Crawford, model and spokesperson for Silestone in the United States displayed sitting on a countertop across multiple computer devices to show the different breakpoints.',
+        phaseThreeFinalAlt: 'Cindy Crawford, model, and spokesperson for Silestone in the United States, displayed sitting on a countertop across multiple computing devices to show the different breakpoints.',
         relatedImg: relatedThree,
         relatedImgAlt: '',
         url: '/portfolio/silestone-web'
@@ -388,34 +388,34 @@ const PortfolioListContent = [
         programUrl: '',
         projectType: 'Branding, UI/UX Design',
         brief: [
-            `Abstract Creative is a creative, branding, and digital design agency based in Houston`
+            `Abstract Creative is a creative, branding, and digital design agency based in Houston.`
         ],
         subtitle: [
             `The purpose of the design is to provide online reach through branded storytelling.`,
             ` Implement a search-friendly and socially-focused online portfolio to drive user engagement and organic search.`
         ],
         description: [
-            `Establish SEO foundations for future growth and leverage, grow social engagement and referral traffic.`
+            `Establish SEO foundations for future growth and leverage, grow social engagement, and referral traffic.`
         ],
         image: 'image-2',
         imageHeader: 'bg_image--13',
         phaseOneImg: portfolioNinetyOne,
         phaseOneAlt: [
-            `Multiple page mockup showing the pages in a slanted way.`
+            `Mockup showing multiple pages.`
         ],
         phaseOneDesc: [
-            `Abstract is a new branding agency and needed to create all of the essentials in their digital prescence - logo, branding, and website design.`,
+            `Abstract Creative is a new branding agency and needed to create all of the essentials in its digital presence - logo, branding, and website design.`,
             ` The direction for the new website was about creating engagement, to help Abstract drive initial excitement around their services and generate leads.`
         ],
         phaseOneDescMore: [
-            `Focused on a clean, intuitive design that quickly establishes their unique benefits and point of difference to visitors.`
+            `We focused on a clean, intuitive design that quickly establishes their unique benefits and point of difference to visitors.`
         ],
         phaseTwoImg: portfolioNinetyTwo,
         phaseTwoAlt: [
-            `Desktop, laptop and mobile phone on a desk showing the front page layout of the website design.`
+            `Desktop, laptop, and mobile phone on a desk are showing the front page layout of the website design.`
         ],
         phaseTwoDesc: [
-            `We worked with Abstract on every aspect of creating their brand, starting with their logo. Both the logo and the website designs needed to feel fresh, professional, mobile and suit the name - just like their business.`
+            `We worked with Abstract on every aspect of creating their brand, starting with their logo. The logo and the website designs needed to be fresh, professional, mobile, and suited to the name, just like their business.`
         ],
         phaseTwoDescMore: [
             `The palette balances bright, energetic colors with modern typography for an overall sense of abstract and positivity.`
@@ -425,14 +425,14 @@ const PortfolioListContent = [
             `Isometric perspective of laptop and extra monitor showing landing page of the website.`
         ],
         phaseThreeDesc: [
-            `The new Abstract website is a clear, engaging user experience, and captures the accessible, welcoming vibe of their brand.`,
-            ` Natural user flows guide visitors through services and projects, with new filtering and lateral navigation opportunitites that showcase related projects.`
+            `The new Abstract website is a clear, engaging user experience, and captures the friendly, welcoming vibe of their brand.`,
+            ` Natural user flows guide visitors through services and projects, with new filtering and lateral navigation opportunities that showcase related projects.`
         ],
         phaseThreeDescMore: [
-            `Site-wide copywriting and SEO support helped build out new pages, improve their brand storytelling to inform their audience of their services, and optimize their content.`
+            `Site-wide copywriting and SEO support helped build out new pages, improve their brand storytelling to inform their audience of their services and optimize their content.`
         ],
         phaseThreeFinal: portfolioNinety,
-        phaseThreeFinalAlt: 'Cindy Crawford, model and spokesperson for Silestone in the United States displayed sitting on a countertop across multiple computer devices to show the different breakpoints.',
+        phaseThreeFinalAlt: 'Cindy Crawford, model, and spokesperson for Silestone in the United States, displayed sitting on a countertop across multiple computing devices to show the different breakpoints.',
         relatedImg: relatedFour,
         relatedImgAlt: '',
         url: '/portfolio/abstract'
@@ -450,10 +450,10 @@ const PortfolioListContent = [
         brief: 'Brand strategy & identity & Packaging design',
         // Summary
         subtitle: [
-            `Muscle Rehab as a brand has expanded quite well and claims assurance in the quality of its products.`
+            `Muscle Rehab, as a brand, has expanded quite well and claims assurance in its quality.`
         ],
         description: [
-            `We created a logo and packaging design that targets hard-working young adult athletes that have an active lifestyle. `
+            `We created a logo and packaging design that targets hard-working young adult athletes that have an active lifestyle.`
         ],
         image: 'image-5',
         imageHeader: 'bg_image--5',
@@ -467,7 +467,7 @@ const PortfolioListContent = [
         // Challenge big picture
         challengeImgOne: portfolioThirtyfour,
         challengeImgOneAlt: [
-            `Picture montage of muscle rehab logo, olymipic swimmer underwater, and bath bombs showing in aqua blue color.`
+            `Picture montage of muscle rehab logo, Olympic swimmer underwater, and bath bombs showing in aqua blue color.`
         ],
         // Two small pictures
         challengeImgTwo: portfolioThirtyfive,
@@ -485,12 +485,12 @@ const PortfolioListContent = [
         ],
         solutionDescMore: [
             `Confident, unexpected, enticing, the creative concept draws your attention by showing the product in its use.
-            We created a brand, from strategy and narrative to visual identity and packaging, that merges all audiences—ideal for a product that's both rigorous and tended by hand.`
+             We created a brand, from strategy and narrative to visual identity and packaging, that merges all audiences—ideal for a product that's both rigorous and tended by hand.`
         ],
         // Big Picture
         solutionImgOne: portfolioThirtyseven,
         solutionImgOneAlt: [
-            `Young woman running, young male athlete running, and three muscle rehab packaging.`
+            `Young woman running, a young male athlete running, and three muscle rehab packaging.`
         ],
         // Two small pictures
         solutionImgTwo: portfolioThirtyeight,
@@ -507,7 +507,7 @@ const PortfolioListContent = [
             ` Muscle Rehab's market to young adult athletes, ages 18 to 35, where sore muscles are a part of an active lifestyle. To reach them, we needed to create more than a bath bomb brand. We needed to stand for something greater. So we designed a brand for the doers—something to live up to.`
         ],
         resultsDescMore: [
-            `The result is a lifestyle brand that values ambition and hard work, as well as time spent unwinding and connecting with friends.`
+            `The result is a lifestyle brand that values ambition and hard work, as well as unwinding time and connecting with friends.`
         ],
         // Results big picture
         resultsImg: portfolioThirtythree,
@@ -532,13 +532,13 @@ const PortfolioListContent = [
         view: 'View Project',
         programUrl: 'BMA Lantern Award',
         projectType: 'Brochure, Illustration',
-        brief: 'Brochure design to communicate efficient and effective technologies to lower oprational costs',
+        brief: 'Brochure design to communicate efficient and effective technologies to lower operational costs.',
         // Summary
         subtitle: [
-            `A 16-page award-winning brochure design that details six ways to reduce operation costs in the Well Intervention segment.`
+            `An award-winning 16-page brochure design detailing six ways to reduce operating costs in the Well Intervention segment.`
         ],
         description: [
-            `Simplistic yet elegant design filled with infographics, supportive case studies, and custom illustrations for each highlighted service that helps reduce operation costs.`
+            `Simplistic yet elegant design filled with infographics, supportive case studies, and custom illustrations for each highlighted service help reduce operating costs.`
         ],
         image: 'image-6',
         imageHeader: 'bg_image--6',
@@ -552,16 +552,16 @@ const PortfolioListContent = [
         // Challenge big picture
         challengeImgOne: portfolioFortyone,
         challengeImgOneAlt: [
-            `Book closeup of inner Active PTC page showing infographics and custom illustration.`
+            `Book close up of inner Active PTC page showing infographics and custom illustration.`
         ],
         // Two small pictures
         challengeImgTwo: portfolioFortytwo,
         callengeImgTwoAlt: [
-            `Closeup of custom illustration showing downhole stratta and pipelines.`
+            `Close up of custom illustration showing downhole stratta and pipelines.`
         ],
         challengeImgThree: portfolioFortythree,
         challengeImgTwoThree: [
-            `Closeup of inner pages showing detailed case story content and inforgraphics.`
+            `Close up of inner pages showing detailed case story content and inforgraphics.`
         ],
         // The Solution
         solutionDesc: [
@@ -582,7 +582,7 @@ const PortfolioListContent = [
         ],
         solutionImgThree: portfolioFortysix,
         solutionImgThreeAlt: [
-            `Multiple views of back cover, inner pages, front cover spread and inside page.`
+            `Multiple views of the back cover, inner pages, front cover spread, and inside page.`
         ],
         // The Restults
         resultsDesc: [
@@ -614,10 +614,10 @@ const PortfolioListContent = [
         view: 'View Project',
         programUrl: 'BMA Lantern Award, GEA Awards',
         projectType: 'Products Catalog',
-        brief: 'Three book edition and book insert catalog design',
+        brief: 'Three book edition and book insert catalog design.',
         // Summary
         subtitle: [
-            `Taking a fresh approach turned this product catalogue design into a successful sales tool, both in print and digital format.`
+            `Taking a fresh approach turned this product catalog design into a successful sales tool, both in print and digital format.`
         ],
         description: [
             `We produced a comprehensive design for displaying products, services, and book excerpt content for the Schlumberger Well Intervention segment.`
@@ -629,7 +629,7 @@ const PortfolioListContent = [
             `Schlumberger had a new segment that needed to inform its audience of its tools, products, and services.`
         ],
         challengeDescMore: [
-            ` The goal was to create new content and visual references for data information of its products, original content for case studies, and tech reports for existing services. `
+            ` The goal was to create new content and visual references for data information of its products, original content for case studies, and tech reports for existing services.`
         ],
         // Challenge big picture
         challengeImgOne: portfolioFortynine,
@@ -643,7 +643,7 @@ const PortfolioListContent = [
         ],
         challengeImgThree: portfolioFiftyfour,
         challengeImgTwoThree: [
-            `Three books, one standing and the other two laying flat showing a different design perspective of the design layout.`
+            `Three books, one standing, and the other two laying flat are showing a different design perspective of the design layout.`
         ],
         // The Solution
         solutionDesc: [
@@ -699,11 +699,11 @@ const PortfolioListContent = [
         brief: 'Identity Evolution for a Leading Health and Beauty Brand.',
         // Summary
         subtitle: [
-            `Rebranding for a leading line of luxurious and soothing natural products in the health and beauty industry.`
+            `Rebranding a leading line of luxurious and soothing natural products in the health and beauty industry.`
         ],
         description: [
             `Enfusia needed to update its identity and brand to drive competitive differentiation and increase market share. 
-            To achieve this, the company would revamp its existing logo and update its packaging for all products to a cleaner, consistent look and feel. `
+            To achieve this, the company would revamp its existing logo and update its packaging for all products to a cleaner, consistent look and feel.`
         ],
         image: 'image-9',
         imageHeader: 'bg_image--9',
@@ -782,16 +782,16 @@ const PortfolioListContent = [
         brief: 'Brochure design for a leading Kitchen countertop company.',
         // Summary
         subtitle: [
-            `Silestone owes its success to its people: a diverse strong workforce distributed in the more than 20 countries and comprehensive distribution centers and service platforms across the globe.`
+            `Silestone owes its success to its people: a diverse, strong workforce distributed in more than 20 countries and comprehensive distribution centers and service platforms across the globe.`
         ],
         description: [
-            `All due to the belief that strong relationships will allow them to build a brighter future for kitchen countertop customers.`
+            `Strong relationships will allow them to build a brighter future for kitchen countertop customers.`
         ],
         image: 'image-10',
         imageHeader: 'bg_image--14',
         // The Challenge
         challengeDesc: [
-            `To design an elegant sales brochure that would help Silestone communicate behind the company's successes and leadership lies a global team united across borders towards a commong goal: Consistenly deliverying innovative kitchen products.`
+            `To design an elegant sales brochure that would help Silestone communicate behind the company's successes and leadership lies a global team united across borders towards a common goal: Consistently delivering innovative kitchen products.`
         ],
         challengeDescMore: [
             ``
@@ -812,7 +812,7 @@ const PortfolioListContent = [
         ],
         // The Solution
         solutionDesc: [
-            `The simplicity of the cover design—clean and elegant—creates immediate impact and generates curiosity. The color is restricted to the brand's red on a solid spread with a mixture of serif and sans serif fonts to identify the brands message.`
+            `The simplicity of the cover design—clean and elegant—creates immediate impact and generates curiosity. The color is restricted to the brand's red on a fixed spread with a mixture of serif and sans serif fonts to identify the brand's message.`
         ],
         solutionDescMore: [
             `Page after page inside, the brochure design is filled with stunning color tones and elegant photography that bring out the complexity behind the Silestone product performance. The style and tone are consistent with Silestone's website, which I was also involved with in the design.`
@@ -834,10 +834,10 @@ const PortfolioListContent = [
         // The Restults
         resultsDesc: [
             `The sales brochure includes detailed product information and includes over 60 colors of different surface textures highlighted with unique icon designs.`,
-            `The sales brochure is full of personality—the perfect combination of enganging and memorable imagery and clearly laid out information.`
+            `The sales brochure is full of personality—the perfect combination of engaging and memorable imagery and laid out information.`
         ],
         resultsDescMore: [
-            `The large font use and its simplicity of color use help make a strong and confident statement about the company's passion and commitment to deliver the best solutions for its customers, and really make a difference to the kitchens of customers all over the world.`
+            `The significantly large font use and its simplicity of color use help make a strong and confident statement about the company's passion and commitment to deliver the best solutions for its customers and make a difference to the kitchens of customers all over the world.`
         ],
         // Results big picture
         resultsImg: portfolioSeventynine,
@@ -882,7 +882,7 @@ const PortfolioListContent = [
         // Challenge big picture
         challengeImgOne: portfolioNinetySix,
         challengeImgOneAlt: [
-            `Large image displaying Cafe Diario logo with a beige background, coffee beans over a rustic wood surface and a young lady enjoying a fresh cup of coffee.`
+            `A large image is displaying the Cafe Diario logo with a beige background. Coffee beans over a rustic wood surface and a young lady is enjoying a fresh cup of coffee.`
         ],
         // Two small pictures
         challengeImgTwo: portfolioNinetySeven,
@@ -903,7 +903,7 @@ const PortfolioListContent = [
         // Big Picture
         solutionImgOne: portfolioNinetyNine,
         solutionImgOneAlt: [
-            `Coffee grains inside a burlap sack with a cup of hot coffee, Colombian landscaping and three coffee containers.`
+            `Coffee grains inside a burlap sack with a cup of hot coffee. Colombian landscaping, and three coffee containers.`
         ],
         // Two small pictures
         solutionImgTwo: portfolioOneHundred,
@@ -912,7 +912,7 @@ const PortfolioListContent = [
         ],
         solutionImgThree: portfolioOneHundredOne,
         solutionImgThreeAlt: [
-            `Canned container of coffee products with coffee beans spilled outside the cans.`
+            `The canned container of coffee products with coffee beans spilled outside the cans.`
         ],
         // The Restults
         resultsDesc: [
@@ -931,7 +931,7 @@ const PortfolioListContent = [
         // Related image
         relatedImg: relatedEleven,
         relatedImgAlt: [
-            `Large image displaying Cafe Diario logo with a beige background, coffee beans over a rustic wood surface and a young lady enjoying a fresh cup of coffee.`
+            `Large image displaying Cafe Diario logo with a beige background. Coffee beans over a rustic wood surface and a young lady enjoying a fresh cup of coffee.`
         ],
         // URL
         url: '/portfolio/cafe-diario'

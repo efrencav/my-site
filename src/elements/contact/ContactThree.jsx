@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 
-class ContactThree extends Component{
-    constructor(props){
+class ContactThree extends Component {
+    constructor(props) {
         super(props);
         this.state = {
             rnName: '',
@@ -10,8 +10,8 @@ class ContactThree extends Component{
             rnMessage: '',
         };
     }
-    render(){
-        return(
+    render() {
+        return (
             <div className="contact-form--1">
                 <div className="container">
                     <div className="row row--35 align-items-start">
@@ -22,14 +22,14 @@ class ContactThree extends Component{
                                     <a href="mailto:efren.cavazos@gmail.com"> efren.cavazos@gmail.com</a> </p>
                             </div>
                             <div className="form-wrapper">
-                                <form>
+                                <form action="POST" data-netlify="true">
                                     <label htmlFor="item01">
                                         <input
                                             type="text"
                                             name="name"
                                             id="item01"
                                             value={this.state.rnName}
-                                            onChange={(e)=>{this.setState({rnName: e.target.value});}}
+                                            onChange={(e) => { this.setState({ rnName: e.target.value }); }}
                                             placeholder="Your Name *"
                                         />
                                     </label>
@@ -40,7 +40,7 @@ class ContactThree extends Component{
                                             name="email"
                                             id="item02"
                                             value={this.state.rnEmail}
-                                            onChange={(e)=>{this.setState({rnEmail: e.target.value});}}
+                                            onChange={(e) => { this.setState({ rnEmail: e.target.value }); }}
                                             placeholder="Your email *"
                                         />
                                     </label>
@@ -51,7 +51,7 @@ class ContactThree extends Component{
                                             name="subject"
                                             id="item03"
                                             value={this.state.rnSubject}
-                                            onChange={(e)=>{this.setState({rnSubject: e.target.value});}}
+                                            onChange={(e) => { this.setState({ rnSubject: e.target.value }); }}
                                             placeholder="Write a Subject"
                                         />
                                     </label>
@@ -61,7 +61,7 @@ class ContactThree extends Component{
                                             id="item04"
                                             name="message"
                                             value={this.state.rnMessage}
-                                            onChange={(e)=>{this.setState({rnMessage: e.target.value});}}
+                                            onChange={(e) => { this.setState({ rnMessage: e.target.value }); }}
                                             placeholder="Your Message"
                                         />
                                     </label>
@@ -71,7 +71,7 @@ class ContactThree extends Component{
                         </div>
                         <div className="col-lg-6 order-1 order-lg-2">
                             <div className="thumbnail mb_md--30 mb_sm--30">
-                                <img src={`${this.props.contactImages}`} alt="Efren Cavazos"/>
+                                <img src={`${this.props.contactImages}`} alt="Efren Cavazos" />
                             </div>
                         </div>
                     </div>
