@@ -10,7 +10,26 @@ class ContactThree extends Component {
             rnMessage: '',
         };
     }
+
+    /* Here’s the juicy bit for posting the form submission */
+
+    handleSubmit = e => {
+        fetch("/", {
+            method: "POST",
+            headers: { "Content-Type": "application/x-www-form-urlencoded" },
+            body: encode({ "form-name": "contact", ...this.state })
+        })
+            .then(() => alert("Success!"))
+            .catch(error => alert(error));
+
+        e.preventDefault();
+    };
+
+    handleChange = e => this.setState({ [e.target.name]: e.target.value });
+
     render() {
+        const { rnName, rnEmail, rnSubject, rnMessage } = this.state;
+
         return (
             <div className="contact-form--1">
                 <div className="container">
@@ -22,25 +41,25 @@ class ContactThree extends Component {
                                     <a href="mailto:efren.cavazos@gmail.com"> efren.cavazos@gmail.com</a> </p>
                             </div>
                             <div className="form-wrapper">
-                                <form name="contact" action="POST" data-netlify="true">
+                                <form onSubmit={this.handleSubmit}>
                                     <label htmlFor="item01">
                                         <input
                                             type="text"
                                             name="name"
                                             id="item01"
-                                            value={this.state.rnName}
-                                            onChange={(e) => { this.setState({ rnName: e.target.value }); }}
+                                            value={rnName}
+                                            onChange={this.handleChange}
                                             placeholder="Your Name *"
                                         />
                                     </label>
 
                                     <label htmlFor="item02">
                                         <input
-                                            type="text"
+                                            type="email"
                                             name="email"
                                             id="item02"
-                                            value={this.state.rnEmail}
-                                            onChange={(e) => { this.setState({ rnEmail: e.target.value }); }}
+                                            value={rnEmail}
+                                            onChange={this.handleChange}
                                             placeholder="Your email *"
                                         />
                                     </label>
@@ -50,8 +69,8 @@ class ContactThree extends Component {
                                             type="text"
                                             name="subject"
                                             id="item03"
-                                            value={this.state.rnSubject}
-                                            onChange={(e) => { this.setState({ rnSubject: e.target.value }); }}
+                                            value={rnSubject}
+                                            onChange={this.handleChange}
                                             placeholder="Write a Subject"
                                         />
                                     </label>
@@ -60,8 +79,8 @@ class ContactThree extends Component {
                                             type="text"
                                             id="item04"
                                             name="message"
-                                            value={this.state.rnMessage}
-                                            onChange={(e) => { this.setState({ rnMessage: e.target.value }); }}
+                                            value={rnMessage}
+                                            onChange={this.handleChange}
                                             placeholder="Your Message"
                                         />
                                     </label>
