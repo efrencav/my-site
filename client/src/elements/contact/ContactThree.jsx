@@ -1,64 +1,49 @@
 import React from "react";
-import Axios from 'axios';
+import axios from 'axios';
 
 class ContactThree extends React.Component {
-    constructor(props) {
-        super(props);
-        this.state = {
+
+    state = {
+        name: '',
+        email: '',
+        subject: '',
+        message: '',
+        sent: false,
+        buttonText: 'Send Message'
+    };
+
+    formSubmit = (e) => {
+        e.preventDefault()
+
+        this.setState({
+            buttonText: '...sending'
+        })
+
+        let data = {
+            name: this.state.name,
+            email: this.state.email,
+            subject: this.state.subject,
+            message: this.state.message
+        }
+
+        axios.post('API_URI', data)
+            .then(res => {
+                this.setState({ sent: true }, this.resetForm())
+            })
+            .catch(() => {
+                console.log('Message not sent')
+            })
+    }
+    resetForm = () => {
+        this.setState({
             name: '',
             email: '',
             subject: '',
             message: '',
-            disabled: false,
-            emailSent: null,
-        };
-    }
-
-    handleChange = (event) => {
-        // console.log(event);
-
-        const target = event.target;
-        const value = target.type === 'checkbox' ? target.checked : target.value;
-        const name = target.name;
-
-        this.setState({
-            [name]: value
+            buttonText: 'Message Sent'
         })
     }
 
-    handleSubmit = (event) => {
-        event.preventDefault();
-
-        // console.log(event.target);
-
-        this.setState({
-            disabled: true
-        });
-
-        Axios.post('http://localhost:3030/api/email', this.state)
-            .then(res => {
-                if (res.data.success) {
-                    this.setState({
-                        disabled: false,
-                        emailSent: true
-                    });
-                } else {
-                    this.setState({
-                        disabled: false,
-                        emailSent: false
-                    });
-                }
-            })
-            .catch(err => {
-                console.log(err);
-
-                this.setState({
-                    disabled: false,
-                    emailSent: false
-                });
-            })
-
-    }
     render() {
         return (
             <div className="contact-form--1">
@@ -78,7 +63,7 @@ class ContactThree extends React.Component {
                                             name="name"
                                             type="text"
                                             value={this.state.name}
-                                            onChange={this.handleChange}
+                                            onChange={e => this.setState({ name: e.target.value })}
                                             placeholder="Your Name *"
                                         />
                                     </label>
@@ -89,7 +74,7 @@ class ContactThree extends React.Component {
                                             name="email"
                                             type="text"
                                             value={this.state.email}
-                                            onChange={this.handleChange}
+                                            onChange={e => this.setState({ email: e.target.value })}
                                             placeholder="Your email *"
                                         />
                                     </label>
@@ -100,7 +85,7 @@ class ContactThree extends React.Component {
                                             name="subject"
                                             type="text"
                                             value={this.state.subject}
-                                            onChange={this.handleChange}
+                                            onChange={e => this.setState({ subject: e.target.value })}
                                             placeholder="Write a Subject"
                                         />
                                     </label>
@@ -110,13 +95,12 @@ class ContactThree extends React.Component {
                                             name="message"
                                             type="text"
                                             value={this.state.message}
-                                            onChange={this.handleChange}
+                                            onChange={e => this.setState({ message: e.target.value })}
                                             placeholder="Your Message"
                                         />
                                     </label>
-                                    <button className="rn-button-style--2 btn-solid" variant="primary" type="submit" disabled={this.state.disabled} >Submit</button>
-                                    {this.state.emailSent === true && <p className="d-inline success-msg">Email Sent</p>}
-                                    {this.state.emailSent === false && <p className="d-inline err-msg">Email Not Sent</p>}
+                                    <button className="rn-button-style--2 btn-solid" variant="primary" type="submit">{this.state.buttonText}</button>
+
                                 </form>
                             </div>
                         </div>
