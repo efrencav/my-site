@@ -18,7 +18,14 @@ function ContactThree(props) {
         axios
             .post('http://localhost:8000/api/v1', payload)
             .then(response => {
-                console.log(response);
+                if(response.data.success) {
+                    setName("");
+                    setEmail("");
+                    setMessage("");
+                    setSubject("");
+                } else {
+                    console.log(response);
+                }
             })
     }
 

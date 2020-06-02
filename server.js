@@ -34,7 +34,6 @@ const transporter = nodemailer.createTransport({
 
 app.post('/api/v1', (req, res) => {
     const data = req.body;
-    console.log(data);
 
     const mailOptions = {
         from: process.env.SENDER_EMAIL_ADDRESS,
