@@ -2,6 +2,7 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const nodemailer = require('nodemailer');
 const cors = require('cors');
+const path = require('path');
 
 const app = express();
 
@@ -16,10 +17,14 @@ app.listen(port, () => {
     console.log('We are live on port 4444');
 });
 
+// app.engine('handlebars', exphbs());
+// app.set('view engine', "handlebars");
 
 app.get('/', (req, res) => {
     res.send('Welcome to my api');
 })
+
+app.use('public', express.static(path.join(__dirname, 'public')));
 
 app.post('/api/v1', (req, res) => {
     var data = req.body;
@@ -30,17 +35,30 @@ app.post('/api/v1', (req, res) => {
         auth: {
             user: 'efren.cavazos@gmail.com',
             pass: 'wyfhosiwsyexpzum'
+        },
+        tls: {
+            rejetUnauthorized: false
         }
     });
+    app.post('/send', (req, res) => {
+        console.log(data);
+    })
 
     var mailOptions = {
         from: data.email,
         to: 'efren.cavazos@gmail.com',
-        subject: 'Online Contact Form',
-        html: `<p>${data.name}</p>
-          <p>${data.email}</p>
-          <p>${data.subject}</p>
-          <p>${data.message}</p>`
+        subject: 'Online Portfolio Contact Request',
+        html: `
+        <p>You have a new contact request</p>
+        <h3>Contact Details</h3>
+        <ul>
+        <li>${data.name}</li>
+          <li>${data.email}</li>
+          <li>${data.subject}</li>
+          </ul>
+          <h3>Message</h3>
+          <p>${data.message}</p>
+          `
     };
 
     smtpTransport.sendMail(mailOptions,

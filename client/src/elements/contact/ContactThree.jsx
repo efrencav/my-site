@@ -26,12 +26,13 @@ class ContactThree extends React.Component {
             message: this.state.message
         }
 
-        axios.post('API_URI', data)
+        axios.post('/send', data)
             .then(res => {
                 this.setState({ sent: true }, this.resetForm())
             })
             .catch(() => {
                 console.log('Message not sent')
+                console.log(this.state);
             })
     }
     resetForm = () => {
@@ -56,7 +57,7 @@ class ContactThree extends React.Component {
                                     <a href="mailto:efren.cavazos@gmail.com"> efren.cavazos@gmail.com</a> </p>
                             </div>
                             <div className="form-wrapper">
-                                <form onSubmit={this.handleSubmit}>
+                                <form method="POST" action="send" onSubmit={this.formSubmit}>
                                     <label htmlFor="full-name">
                                         <input
                                             id="full-name"
