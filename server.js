@@ -1,7 +1,7 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 const nodemailer = require('nodemailer');
-const cors = require('cors');
+// const cors = require('cors');
 const path = require('path');
 
 const app = express();
@@ -11,7 +11,7 @@ const port = 4444;
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
-app.use(cors());
+// app.use(cors());
 
 app.listen(port, () => {
     console.log('We are live on port 4444');
@@ -41,7 +41,7 @@ app.post('/api/v1', (req, res) => {
         }
     });
     app.post('/send', (req, res) => {
-        console.log(data);
+        console.log(data.name);
     })
 
     var mailOptions = {

@@ -1,49 +1,7 @@
 import React from "react";
-import axios from 'axios';
+// import axios from 'axios';
 
 class ContactThree extends React.Component {
-
-    state = {
-        name: '',
-        email: '',
-        subject: '',
-        message: '',
-        sent: false,
-        buttonText: 'Send Message'
-    };
-
-    formSubmit = (e) => {
-        e.preventDefault()
-
-        this.setState({
-            buttonText: '...sending'
-        })
-
-        let data = {
-            name: this.state.name,
-            email: this.state.email,
-            subject: this.state.subject,
-            message: this.state.message
-        }
-
-        axios.post('/send', data)
-            .then(res => {
-                this.setState({ sent: true }, this.resetForm())
-            })
-            .catch(() => {
-                console.log('Message not sent')
-                console.log(this.state);
-            })
-    }
-    resetForm = () => {
-        this.setState({
-            name: '',
-            email: '',
-            subject: '',
-            message: '',
-            buttonText: 'Message Sent'
-        })
-    }
 
     render() {
         return (
@@ -57,14 +15,14 @@ class ContactThree extends React.Component {
                                     <a href="mailto:efren.cavazos@gmail.com"> efren.cavazos@gmail.com</a> </p>
                             </div>
                             <div className="form-wrapper">
-                                <form method="POST" action="send" onSubmit={this.formSubmit}>
+                                <form method="POST" action="/">
                                     <label htmlFor="full-name">
                                         <input
                                             id="full-name"
                                             name="name"
                                             type="text"
-                                            value={this.state.name}
-                                            onChange={e => this.setState({ name: e.target.value })}
+                                            // value={this.state.name}
+                                            // onChange={e => this.setState({ name: e.target.value })}
                                             placeholder="Your Name *"
                                         />
                                     </label>
@@ -74,8 +32,8 @@ class ContactThree extends React.Component {
                                             id="full-email"
                                             name="email"
                                             type="text"
-                                            value={this.state.email}
-                                            onChange={e => this.setState({ email: e.target.value })}
+                                            // value={this.state.email}
+                                            // onChange={e => this.setState({ email: e.target.value })}
                                             placeholder="Your email *"
                                         />
                                     </label>
@@ -85,8 +43,8 @@ class ContactThree extends React.Component {
                                             id="full-subject"
                                             name="subject"
                                             type="text"
-                                            value={this.state.subject}
-                                            onChange={e => this.setState({ subject: e.target.value })}
+                                            // value={this.state.subject}
+                                            // onChange={e => this.setState({ subject: e.target.value })}
                                             placeholder="Write a Subject"
                                         />
                                     </label>
@@ -95,12 +53,12 @@ class ContactThree extends React.Component {
                                             id="full-message"
                                             name="message"
                                             type="text"
-                                            value={this.state.message}
-                                            onChange={e => this.setState({ message: e.target.value })}
+                                            // value={this.state.message}
+                                            // onChange={e => this.setState({ message: e.target.value })}
                                             placeholder="Your Message"
                                         />
                                     </label>
-                                    <button className="rn-button-style--2 btn-solid" variant="primary" type="submit">{this.state.buttonText}</button>
+                                    <button className="rn-button-style--2 btn-solid" variant="primary" type="submit">Submit</button>
 
                                 </form>
                             </div>
