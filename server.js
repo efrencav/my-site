@@ -33,8 +33,8 @@ app.post('/api/v1', (req, res) => {
         service: 'Gmail',
         port: 465,
         auth: {
-            user: 'efren.cavazos@gmail.com',
-            pass: 'wyfhosiwsyexpzum'
+            user: '#',
+            pass: '#'
         },
         tls: {
             rejetUnauthorized: false
@@ -46,7 +46,7 @@ app.post('/api/v1', (req, res) => {
 
     var mailOptions = {
         from: data.email,
-        to: 'efren.cavazos@gmail.com',
+        to: '#',
         subject: 'Online Portfolio Contact Request',
         html: `
         <p>You have a new contact request</p>
