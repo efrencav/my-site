@@ -1,52 +1,44 @@
+require('dotenv').config();
 const express = require('express');
+const favicon = require('express-favicon');
+const path = require('path');
+const cors = require('cors');
 const bodyParser = require('body-parser');
 const nodemailer = require('nodemailer');
-// const cors = require('cors');
-const path = require('path');
 
+const port = process.env.PORT || 8080;
 const app = express();
 
-const port = 4444;
-
+app.use(cors());
 app.use(bodyParser.json());
-app.use(bodyParser.urlencoded({ extended: true }));
+app.use(bodyParser.urlencoded({extended: true}));
+app.use(express.static(__dirname));
+app.use(express.static(path.join(__dirname, 'client/build')));
+app.use(favicon(__dirname + '/client/build/favicon.ico'));
 
-// app.use(cors());
-
-app.listen(port, () => {
-    console.log('We are live on port 4444');
+app.get('/', function (req, res) {
+  res.sendFile(path.join(__dirname, 'client/build', 'index.html'));
 });
 
-// app.engine('handlebars', exphbs());
-// app.set('view engine', "handlebars");
+app.listen(port, () => {
+    console.log(`Express server is listening on port: ${port}`)
+});
 
-app.get('/', (req, res) => {
-    res.send('Welcome to my api');
-})
-
-app.use('public', express.static(path.join(__dirname, 'public')));
+const transporter = nodemailer.createTransport({
+    service: 'gmail',
+    auth: {
+           user: process.env.SENDER_EMAIL_ADDRESS,
+           pass: process.env.SENDER_EMAIL_PASSWORD
+       }
+   });
 
 app.post('/api/v1', (req, res) => {
-    var data = req.body;
+    const data = req.body;
+    console.log(data);
 
-    var smtpTransport = nodemailer.createTransport({
-        service: 'Gmail',
-        port: 465,
-        auth: {
-            user: '#',
-            pass: '#'
-        },
-        tls: {
-            rejetUnauthorized: false
-        }
-    });
-    app.post('/send', (req, res) => {
-        console.log(data.name);
-    })
-
-    var mailOptions = {
-        from: data.email,
-        to: '#',
+    const mailOptions = {
+        from: process.env.SENDER_EMAIL_ADDRESS,
+        to: process.env.RECEIVER_EMAIL_ADDRESS,
         subject: 'Online Portfolio Contact Request',
         html: `
         <p>You have a new contact request</p>
@@ -61,12 +53,18 @@ app.post('/api/v1', (req, res) => {
           `
     };
 
-    smtpTransport.sendMail(mailOptions,
+    transporter.sendMail(mailOptions,
         (error, response) => {
             if (error) {
-                res.send(error)
+                res.status(400).json({
+                    success: false,
+                    data: error
+                })
             } else {
-                res.send('Success')
+                res.status(200).json({
+                    success: true,
+                    data: response
+                })
             }
             smtpTransport.close();
         });
