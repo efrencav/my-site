@@ -38,7 +38,7 @@ class Root extends Component {
           <Route exact path={`${process.env.PUBLIC_URL}/portfolio/sensa-granite`} component={PortfolioDetailsWeb} />
           <Route exact path={`${process.env.PUBLIC_URL}/portfolio/stone-systems`} component={PortfolioDetailsWeb} />
           <Route exact path={`${process.env.PUBLIC_URL}/success`} component={success} />
-          <Route exact path={`${process.env.PUBLIC_URL}/api`} />
+          <Route exact path={`${process.env.PUBLIC_URL}/send`} />
 
           <Route path={`${process.env.PUBLIC_URL}/404`} component={error404} />
           <Route component={error404} />

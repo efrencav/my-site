@@ -1,18 +1,15 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 const nodemailer = require('nodemailer');
-// const cors = require('cors');
+const cors = require('cors');
 const path = require('path');
 
+
 const app = express();
-
 const port = 4444;
-
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
-
-// app.use(cors());
-
+app.use(cors());
 app.listen(port, () => {
     console.log('We are live on port 4444');
 });
@@ -28,13 +25,12 @@ app.use('public', express.static(path.join(__dirname, 'public')));
 
 app.post('/api/v1', (req, res) => {
     var data = req.body;
-
     var smtpTransport = nodemailer.createTransport({
         service: 'Gmail',
         port: 465,
         auth: {
-            user: 'efren.cavazos@gmail.com',
-            pass: 'wyfhosiwsyexpzum'
+            user: '#',
+            pass: '#'
         },
         tls: {
             rejetUnauthorized: false
@@ -46,7 +42,7 @@ app.post('/api/v1', (req, res) => {
 
     var mailOptions = {
         from: data.email,
-        to: 'efren.cavazos@gmail.com',
+        to: '#',
         subject: 'Online Portfolio Contact Request',
         html: `
         <p>You have a new contact request</p>
@@ -70,5 +66,4 @@ app.post('/api/v1', (req, res) => {
             }
             smtpTransport.close();
         });
-
 })
