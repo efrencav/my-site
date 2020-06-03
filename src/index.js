@@ -19,28 +19,28 @@ class Root extends Component {
     return (
       <BrowserRouter basename={'/'}>
         <Switch>
-          <Route exact path={`${process.env.PUBLIC_URL}/`} component={Home} />
+          <Route exact path="/" component={Home} />
           {/* Blocks Elements  */}
-          <Route exact path={`${process.env.PUBLIC_URL}/portfolio`} component={Portfolio} />
-          <Route exact path={`${process.env.PUBLIC_URL}/portfolio/branding-guidelines`} component={PortfolioDetailsPrint} />
-          <Route exact path={`${process.env.PUBLIC_URL}/portfolio/branding-guidelines-web`} component={PortfolioDetailsWeb} />
-          <Route exact path={`${process.env.PUBLIC_URL}/portfolio/kinsmen-group`} component={PortfolioDetailsWeb} />
-          <Route exact path={`${process.env.PUBLIC_URL}/portfolio/trivia-game`} component={PortfolioDetails} />
-          <Route exact path={`${process.env.PUBLIC_URL}/portfolio/jewel-game`} component={PortfolioDetails} />
-          <Route exact path={`${process.env.PUBLIC_URL}/portfolio/six-ways`} component={PortfolioDetailsPrint} />
-          <Route exact path={`${process.env.PUBLIC_URL}/portfolio/muscle-rehab`} component={PortfolioDetailsPrint} />
-          <Route exact path={`${process.env.PUBLIC_URL}/portfolio/intervention-catalog`} component={PortfolioDetailsPrint} />
-          <Route exact path={`${process.env.PUBLIC_URL}/portfolio/silestone-web`} component={PortfolioDetailsWeb} />
-          <Route exact path={`${process.env.PUBLIC_URL}/portfolio/silestone-brochure`} component={PortfolioDetailsPrint} />
-          <Route exact path={`${process.env.PUBLIC_URL}/portfolio/enfusia`} component={PortfolioDetailsPrint} />
-          <Route exact path={`${process.env.PUBLIC_URL}/portfolio/cafe-diario`} component={PortfolioDetailsPrint} />
-          <Route exact path={`${process.env.PUBLIC_URL}/portfolio/abstract`} component={PortfolioDetailsWeb} />
-          <Route exact path={`${process.env.PUBLIC_URL}/portfolio/sensa-granite`} component={PortfolioDetailsWeb} />
-          <Route exact path={`${process.env.PUBLIC_URL}/portfolio/stone-systems`} component={PortfolioDetailsWeb} />
-          <Route exact path={`${process.env.PUBLIC_URL}/success`} component={success} />
-          <Route exact path={`${process.env.PUBLIC_URL}/api`} />
+          <Route exact path="/portfolio" component={Portfolio} />
+          <Route exact path="/portfolio/branding-guidelines" component={PortfolioDetailsPrint} />
+          <Route exact path="/portfolio/branding-guidelines-web" component={PortfolioDetailsWeb} />
+          <Route exact path="/portfolio/kinsmen-group" component={PortfolioDetailsWeb} />
+          <Route exact path="/portfolio/trivia-game" component={PortfolioDetails} />
+          <Route exact path="/portfolio/jewel-game" component={PortfolioDetails} />
+          <Route exact path="/portfolio/six-ways" component={PortfolioDetailsPrint} />
+          <Route exact path="/portfolio/muscle-rehab" component={PortfolioDetailsPrint} />
+          <Route exact path="/portfolio/intervention-catalog" component={PortfolioDetailsPrint} />
+          <Route exact path="/portfolio/silestone-web" component={PortfolioDetailsWeb} />
+          <Route exact path="/portfolio/silestone-brochure" component={PortfolioDetailsPrint} />
+          <Route exact path="/portfolio/enfusia" component={PortfolioDetailsPrint} />
+          <Route exact path="/portfolio/cafe-diario" component={PortfolioDetailsPrint} />
+          <Route exact path="/portfolio/abstract" component={PortfolioDetailsWeb} />
+          <Route exact path="/portfolio/sensa-granite" component={PortfolioDetailsWeb} />
+          <Route exact path="/portfolio/stone-systems" component={PortfolioDetailsWeb} />
+          <Route exact path="/success" component={success} />
+          <Route exact path="/api" />
 
-          <Route path={`${process.env.PUBLIC_URL}/404`} component={error404} />
+          <Route path="/404" component={error404} />
           <Route component={error404} />
 
         </Switch>
