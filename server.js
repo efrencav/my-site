@@ -76,7 +76,7 @@ app.post('/api/v1', (req, res) => {
                     data: response
                 })
             }
-            smtpTransport.close();
+            transporter.close();
         });
 
 })
