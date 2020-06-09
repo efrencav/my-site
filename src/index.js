@@ -39,6 +39,7 @@ class Root extends Component {
           <Route exact path="/portfolio/stone-systems" component={PortfolioDetailsWeb} />
           <Route exact path="/success" component={success} />
           <Route exact path="/api" />
+          <Route exact path="/crm/admin" />
 
           <Route path="/404" component={error404} />
           <Route component={error404} />
