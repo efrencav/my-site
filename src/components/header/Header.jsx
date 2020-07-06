@@ -79,11 +79,7 @@ class Header extends Component {
                                 ))}
                             </ul>
                         </div>
-                        <div className="header-btn">
-                            <a className="rn-btn" href="#" target="_blank" rel="noopener noreferrer">
-                                <span>Download Resume</span>
-                            </a>
-                        </div>
+                        
                         {/* Start Humberger Menu  */}
                         <div className="humberger-menu d-block d-lg-none pl--20">
                             <span onClick={this.menuTrigger} className="menutrigger text-white"><FiMenu /></span>
